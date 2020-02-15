@@ -17,3 +17,4 @@ Otherwise, if any major and important information are to be included, please ope
 you would like to develop!
 
 ## License
+[APACHE LICENSE 2.0] (https://www.apache.org/licenses/LICENSE-2.0)
