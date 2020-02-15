@@ -4,6 +4,7 @@ public class Question2{
 	public static void main(String [] args){
 		Scanner keyinput = new Scanner(System.in);
 
+	// Simple instruction given to the user
 	System.out.println("\n~~~~~~~~~ Please enter the price of the item ~~~~~~~~~");
 	double price = keyinput.nextDouble();
 

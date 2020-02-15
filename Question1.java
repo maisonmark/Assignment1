@@ -11,6 +11,7 @@ public class Question1{
 	System.out.println(" 2. How much distance does your vehicle run per 1 liter gas?");
 	double distance = keyinput.nextDouble();
 
+	// 1.16$ is the price per liter. 
 	double perliter = 1.16;
 	double price = (km/distance) * perliter;
 

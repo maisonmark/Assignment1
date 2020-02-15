@@ -14,6 +14,7 @@ public class Question3 {
 		sum = sum + num % 10;
 		num = num / 10;
 	}
+		// Post calculation; this is the result of our while loop.
 		System.out.println("\nThe sum of your three digits is = " + sum);
 
 	}

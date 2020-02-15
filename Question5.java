@@ -20,6 +20,7 @@ public class Question5 {
 	// This is used to create a line break; to make the program look cleanly spaced.
 		System.out.println();
 
+	// Alas, this outputs the results of each following mathematical operations! 
 		System.out.println(n + " to the Power of 2 = " + power2);
 		System.out.println(n + " to the Power of 3 = " + power3);
 		System.out.println("Square root of " + n + " = " + sqrt);

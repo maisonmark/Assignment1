@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Question4{
+public class Question4 {
 	public static void main(String [] args){
 		Scanner keyinput = new Scanner(System.in);
 	
@@ -19,12 +19,11 @@ public class Question4{
 		System.out.println("\n Veryfying an URL with " + len + " characters...");
 
 		/* The following is an if statement. If the inputed URL has "https://" in it's
-		nature, the program would output that it is a valid and secure network. Otherwise,
-		it would claim to URL to not being valid and secure  */
+		nature, the program would output that it is a valid and secure network. */
 		if (uRL.contains("https://")) {
     	System.out.println(" Is this a valid and secure URL? [TRUE]. ");
 		}
-
+		// If the first condition has not been met, the program moves on to the second condition:
 		else {
     		System.out.println(" Is this a valid and secure URL? [FALSE]. ");
 		}
